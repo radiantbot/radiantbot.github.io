@@ -1,0 +1,50 @@
+{   
+    "topbar": {
+        "about": "ABOUT",
+        "commands": "COMMANDS",
+        "getBaron": "GET RADIANT"
+    },
+    "stats": {
+        "servers": "Servers",
+        "users": "Users",
+        "channels": "Channels"
+    },
+    "about": {
+        "title": "ABOUT",
+        "description": "Radiant Bot is a VALORANT Discord bot. It tries to offer the most accurate information, in the shortest time possible. The bot's objective is to eliminate the effort to open third party websites to get crucial information."
+    },
+    "commands": {
+        "title": "COMMANDS",
+        "commands": "COMMANDS",
+        "description": "DESCRIPTION",
+        "usage": "USAGE"
+    },
+    "contact": {
+        "title": "CONTACT",
+        "imprint": "IMPRINT",
+        "description": "If you want to contact the developer, submit a bug, suggest a feature, or simply just talk about how Raze should be deleted from the game, <a href='https://discord.gg/twCbaFM' class='serverA'>join the bots server</a> or add Phyxsius#1238."
+    },
+    "footer": {
+        "text": "All rights reserved. Website and bot were made with <span>❤</span> by Phyxsius.<br>Radiant Bot is brought to you by <a href='https://playersrepublik.com/'>Players Republik</a>."
+    },
+    "commandsDesc": {
+        "v": "General info and stats of the bot.",
+        "commands": "All commands for the bot.",
+        "agent": "Get all available Agents and/or respective stats and info if specified.",
+        "abilities": "All abilities for a given Agent, along with stats and video/gif.",
+        "weapon": "Stats, info, summary, recoils, video/gif and more for a given gun.",
+        "skin": "Get all skins for a weapon or respective info and aspect for a given skin name.",
+        "map": "All currently available maps and details for a given one, along with it's plan.",
+        "tierlist": "Wondering what's best atm? Check the current tierlist for all Agents and Weapons."
+    },
+    "commandsUsage": {
+        "v": "!v",
+        "commands": "!v commands",
+        "agent": "!v agents / !v agent Phoenix",
+        "abilities": "!v abilities Phoenix",
+        "weapon": "!v weapon Vandal",
+        "skin": "!v skins Classic / !v skins Imperium Classic",
+        "map": "!v maps / !v map Haven",
+        "tierlist": "!v tierlist"
+    }
+}

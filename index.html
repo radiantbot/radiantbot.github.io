@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Radiant, a VALORANT Discord Bot.</title>
+    <meta property="og:title" content="Radiant, a Valorant Discord Bot." />
+    <meta property="og:url" content="https://radiantbot.github.io/" />
+    <meta property="og:image" content="https://i.imgur.com/96htg9C.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Radiant Bot" />
+    <meta property="og:keywords" content="Radiant,Radiant Bot,Discord Bot,VALORNT Discord bot,VALORANT" />
+    <meta property="og:description" content="The most complete VALORANT Discord bot. Full agent guides, weapon stats, skins visualization, map plans, and more!"/>
+    <meta name="description" content="The most complete VALORANT Discord bot. Full agent guides, weapon stats, skins visualization, map plans, and more!" />
+    <meta name="theme-color" content="#0B131E">
+
+    <meta name="google-site-verification" content="sLzWNhG3DrTgOrAvvqsnv9XjnZKrQGZqTkT7OlyIAac" />
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="lightbox/css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="scroller/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="modal/modal.css">
+</head>
+
+<body>
+    <div id="firstDiv">
+        <div class="topBar">
+            <a class="topBar-Title" style="float: left;">RADIANT BOT</a>
+            <img src="/imgs/Avatar.png" class="topBarImg">
+
+            <!-- <div class="lang-dropdown">
+                <div class="dropbtn"><img class="dropbtn-img" src="https://image.ibb.co/kfd1A9/United_Kingdom.png"><span
+                        class="dropbtn-txt">English</span><span class="dropbtn-arrow">&emsp;▼</span></div>
+                <div class="dropdown-content">
+                    <a locale="en"><li><img src="https://image.ibb.co/kfd1A9/United_Kingdom.png" /><span class="lang-name">English</span></li></a>
+                    <a locale="de"><li><img src="https://image.ibb.co/d0MQKK/Germany.png" /><span class="lang-name">Deutsch</span></li></a>
+                    <a locale="es"><li><img src="https://image.ibb.co/f3dexp/Spain.png" /><span class="lang-name">Español</span></li></a>
+                    <a locale="fr"><li><img src="https://image.ibb.co/fwgzxp/France.png" /><span class="lang-name">Français</span></li></a>
+                    <a locale="hu"><li><img src="https://image.ibb.co/dkHuV9/Hungary.png" /><span class="lang-name">Magyar</span></li></a>
+                    <a locale="nl"><li><img src="https://image.ibb.co/jhmoq9/Netherlands.png" /><span class="lang-name">Nederlands</span></li></a>
+                    <a locale="pl"><li><img src="https://image.ibb.co/e5q3OU/Poland.png" /><span class="lang-name">Polski</span></li></a>
+                    <a locale="br"><li><img src="https://image.ibb.co/ezMMA9/Brazil.png" /><span class="lang-name">Português</span></li></a>
+                    <a locale="pt"><li><img src="https://image.ibb.co/cuRzxp/Portugal.png" /><span class="lang-name">Português</span></li></a>
+                    <a locale="ar"><li><img src="https://image.ibb.co/ktB5Mp/Egypt.png" /><span class="lang-name">العربية</span></li></a>
+                    <a locale="tr"><li><img src="https://i.ibb.co/pjPcRQt/Turkey.png" /><span class="lang-name">Türkçe</span></li></a>
+                    <a locale="ru"><li><img src="https://image.ibb.co/iq8ZV9/Russia.png" /><span class="lang-name">Русский язык</span></li></a>
+                    <a locale="kr"><li><img src="https://i.ibb.co/zmvBmM3/Korea.png" /><span class="lang-name">한국어</span></li></a>
+                </div>
+            </div> -->
+
+            <div translate="topbar.getBaron" class="topBar-GetBaron"></div>
+            <div translate="topbar.commands" class="topBar-Commands"></div>
+            <div translate="topbar.about" class="topBar-About"></div>
+        </div>
+        <div class="firstDiv-Center">
+            <div class="baronImage">
+                <img src="imgs/HomeImage.png?1">
+            </div>
+            <div class="stats">
+                <div class="statsServers">
+                    <div><span class="statsTitle" translate="stats.servers"></span>
+                        <br><span class="statsServersNum num"></span></div>
+                </div>
+                <div class="statsUsers">
+                    <div><span class="statsTitle" translate="stats.users"></span>
+                        <br><span class="statsUsersNum num"></span></div>
+                </div>
+                <div class="statsChannels">
+                    <div><span class="statsTitle" translate="stats.channels"></span>
+                        <br><span class="statsChannelsNum num"></span></div>
+                </div>
+            </div>
+        </div>
+        <a href="https://discord.gg/9zbTmrE" target="_blank"><img href="https://discord.gg/9zbTmrE" src="https://discordapp.com/api/guilds/265503362739339274/embed.png" class="discordServerImg"></a>
+    </div>
+    <div id="about">
+        <div class="aboutWrapper">
+            <p translate="about.title" class="aboutTitle"></p>
+            <p translate="about.description" class="aboutContent"></p>
+        </div>
+    </div>
+    <!-- <div id="about" style="background-image: url(./imgs/rs_banner.png); background-position: center">
+        <div class="aboutWrapper">
+            <p class="aboutTitle">TFT FEATURES</p>
+            <p>Looking for some Teamfight Tactics features and statistics?</p>
+            <br>
+            <p style="padding-bottom: 50px;">Check out <a href="https://runespirit.github.io/" target="_blank" style="color: white; text-decoration: underline;"><b>Runespirit</b></a>, a fully-fledged Discord Bot and Baron's baby brother!</p>
+        </div>
+    </div> -->
+    <div id="commands">
+        <div class="tabela">
+            <p translate="commands.title" class="commandsTitle"></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th translate="commands.commands" scope="col"></th>
+                        <th translate="commands.description" scope="col"></th>
+                        <th translate="commands.usage" scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!v</td>
+                        <td translate="commandsDesc.v" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.v" href="command_examples/v.png" data-lightbox="v"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!v agent</td>
+                        <td translate="commandsDesc.agent" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.agent" href="command_examples/agent.png" data-lightbox="agent"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!v abilities</td>
+                        <td translate="commandsDesc.abilities" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.abilities" href="command_examples/abilities.gif" data-lightbox="abilities"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!v weapon</td>
+                        <td translate="commandsDesc.weapon" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.weapon" href="command_examples/weapon.gif" data-lightbox="weapon"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!v skin</td>
+                        <td translate="commandsDesc.skin" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.skin" href="command_examples/skin.png" data-lightbox="skin"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!v map</td>
+                        <td translate="commandsDesc.map" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.map" href="command_examples/map.png" data-lightbox="map"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!v tierlist</td>
+                        <td translate="commandsDesc.tierlist" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.tierlist" href="command_examples/tierlist.gif" data-lightbox="tierlist"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!v commands</td>
+                        <td translate="commandsDesc.commands" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.commands" href="command_examples/commands.png" data-lightbox="commands"></a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- <div id="about" style="background-image: url(./imgs/giveaway_bg.png);">
+        <div class="aboutWrapper">
+            <p class="aboutTitle">GIVEAWAY</p>
+            <p>We're running a <b style="text-decoration: underline; text-underline-position: under;">HUGE giveaway</b> with multiple winners that includes <b style="text-decoration: underline; text-underline-position: under;">200.000 RP and 100 months of Nitro</b>. And much more!</p>
+            <br>
+            <p style="padding-bottom: 50px;"><a href="https://gleam.io/4f78h/players-republik-loltft-giveaway" target="_blank" style="font-weight: bold; font-size: 25px; color: white">ENTER HERE!</a></p>
+        </div>
+    </div> -->
+    <div id="about">
+        <div class="aboutWrapper">
+            <p translate="contact.title" class="aboutTitle"></p>
+            <br>
+            <p translate="contact.description" class="aboutContent"></p>
+            <a href="https://discord.gg/9zbTmrE" target="_blank"><img href="https://discord.gg/9zbTmrE" src="https://discordapp.com/api/guilds/265503362739339274/embed.png" style="margin-bottom: 30px;"></a>
+        </div>
+    </div>
+    <footer>
+        <p translate="footer.text"></p>
+        <!-- <div class="translationsDiv btn trigger" style="cursor: pointer;">
+            <img src="imgs/languagesIcon.png" style="height: 20px; margin-bottom: 7px; vertical-align: top; margin-right: 5px;"><span style="font-family: FontRegular; font-size: 0.95em;">Translations</span>
+        </div> -->
+        <a target="_blank" href="https://discordbots.org/bot/240482527695994880">
+            <img src="https://discordbots.org/api/widget/lib/240482527695994880.svg?noavatar=true" alt="Discord Music Bot" />
+        </a>
+        <br>
+        <br>
+        <p>Radiant Bot isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</p>
+    </footer>
+
+    <!-- Translators modal. -->
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div class="head">
+                <span>Thank you!</span>
+                <a class="btn-close trigger"></a>
+            </div>
+            <div class="content">
+                <p>Thank you very much to every single one of you that helped Baron Bot getting a new voice, and by doing so, reach new players and communities!</p>
+                <div class="translatorsListWrapper">
+                    <div class="translatorsList translatorsList1"></div>
+                    <div class="translatorsList translatorsList2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
+    <script src="lightbox/js/lightbox.js"></script>
+    <script src="scroller/perfect-scrollbar.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
