@@ -4,7 +4,7 @@ $(document).ready(function () {
     setLanguage("en");
     //const ps = new PerfectScrollbar(".dropdown-content");
 
-    $.getJSON("", function (result) {
+    $.getJSON("https://api.github.com/gists/73a68909a1ac02e76c6b7c6fa71acab1", function (result) {
         if(!result || !result.files || !result.files["baron-stats.json"]) return;
         result = JSON.parse(result.files["baron-stats.json"].content);
         
