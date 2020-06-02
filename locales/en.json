@@ -35,7 +35,8 @@
         "weapon": "Stats, info, summary, recoils, video/gif and more for a given gun.",
         "skin": "Get all skins for a weapon or respective info and aspect for a given skin name.",
         "map": "All currently available maps and details for a given one, along with it's plan.",
-        "tierlist": "Wondering what's best atm? Check the current tierlist for all Agents and Weapons."
+        "tierlist": "Wondering what's best atm? Check the current tierlist for all Agents and Weapons.",
+        "news": "Enable and automatically get the latest news on the desired channel!"
     },
     "commandsUsage": {
         "v": "!v",
@@ -45,6 +46,7 @@
         "weapon": "!v weapon Vandal",
         "skin": "!v skins Classic / !v skins Imperium Classic",
         "map": "!v maps / !v map Haven",
-        "tierlist": "!v tierlist"
+        "tierlist": "!v tierlist",
+        "news": "!v news enable/disable"
     }
 }
